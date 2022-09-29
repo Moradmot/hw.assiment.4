@@ -1,0 +1,15 @@
+#revision 1 09-26-22
+#morad Mothana
+
+print("""
+Twinkle, twinkle, little star,
+       How I wonder what you are! 
+               Up above the world so high,
+               
+               Like a diamond in the sky. 
+Twinkle, twinkle, little star, 
+        How I wonder what you are
+""")
+#3 quotes to print exactly how typed.
+#09-26-22
+#morad mothana

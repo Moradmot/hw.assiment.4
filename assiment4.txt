@@ -1,0 +1,10 @@
+# revision 1: 09-26-22
+# morad mothana
+v=input("please enter a letter:\n")
+if  v in ['a','i','o','u','y']:
+    print("its a vowel")
+else:
+    print("its not a vowel")
+#09-26-22
+# morad mothana
+    

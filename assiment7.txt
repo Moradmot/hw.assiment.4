@@ -1,0 +1,33 @@
+# revision 1 09-26-22
+#morad mothana
+
+list1=[]
+list2=[]
+while True:
+    names = input("enter guest first and last name:")
+    list1.append(names)
+    choice = input("is that all the guest? Press y to put in dates")
+    if choice == "y":
+        break
+print ("listed names are:",list1)
+while True:
+    dates = input("enter date for guest in order:")
+    list2.append(dates)
+    choice = input ("to put in the next date press y.")
+    if choice == "y":
+        break
+def combine(list1,list2):
+    nd=[]
+    for i in range(len(list1)):
+        nd.append(list1[i])
+        nd.append(list2[i])
+    return nd
+print(combine(list1,list2))
+my_list = list(list1) # The list may contain any number 
+if len(my_list) >= 5: # Only if lists is longer than 4 
+    print(list1 "need long tag" , my_list)
+else:
+    print(list1 "need small tag")
+
+# 09-26-22
+# morad mothana

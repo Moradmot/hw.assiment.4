@@ -1,0 +1,11 @@
+#revision 1: 09-26-22
+#morad Mothana
+
+x = float(input("Enter the radius of the circle:\n "))
+#writing float prints out deciemals
+m = (3.14 * x)
+print("Radius:", x)
+print("Area = ", m)
+
+#09-26-22
+#morad mothana

@@ -1,0 +1,27 @@
+# revision 1 09-26-22
+#morad mothana
+
+num = int(input("Enter a roulette number between 0 and 36:"))
+even = True
+color= "red"
+if (num % 2 !=0 ):
+    even = False 
+if num == 0:
+    color = "Green"
+elif  num >= 0 and num<= 10 and even :
+    color = " black"
+elif num >= 11 and num <= 18 and not even:
+    color = "black"
+elif num >= 19 and num <= 28 and even:
+    color = "black"
+elif num >= 29 and num <= 36 and not even:
+    color = "black"
+else: 
+    color = "red"
+if num < 0 and num > 36:
+    print("invalid entry please choose a number range from 0 to 36")
+else:
+    print("the number {0} is {1}.".format(num, color))
+
+# 09-26-22
+# morad mothana

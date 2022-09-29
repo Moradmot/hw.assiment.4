@@ -1,0 +1,13 @@
+# revision 1 09-26-22
+#morad Mothana 
+c = input("please enter a string:\n ",  )
+#python (result)
+print("you entered",c,"its a type is <class 'str'>")
+# you entered python it’s a type is <class ‘str’>(result)
+k = input("please enter an integer: \n"  )
+# 8(result)
+print("you entered",k,"and its type is <class 'str'>")
+#you entered 8 and it is <class ‘str> (result)
+#09-26-22
+#Morad mothana
+

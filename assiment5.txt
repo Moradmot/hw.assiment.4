@@ -1,0 +1,7 @@
+#revision 1:09-26-22
+#morad Mothana
+
+n = [pow(i,4) for i in range(20)]# function
+print(n)
+#09-26-22
+#morad mothana
